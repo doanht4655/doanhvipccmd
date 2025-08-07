@@ -1,2 +1,4 @@
-flask
-websocket-client
+flask==2.0.1
+websocket-client==1.2.1
+gunicorn==20.1.0
+
