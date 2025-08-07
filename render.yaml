@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: taixiu-doanhvip
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python apihit.py"
+    plan: free
+    region: singapore
